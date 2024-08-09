@@ -1,0 +1,13 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.App h2 {
+    font-size: 2rem;
+}

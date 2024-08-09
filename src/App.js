@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import axios from "axios";
 
+// Styles
+import "./app.css"
+
 // Components
 import { UserForm } from "./components/user-form/UserForm.component";
 import { Grid } from "./components/grid/Grid.component";
@@ -28,12 +31,10 @@ function App() {
 
   return (
     <div className="App">
-      <main>
-        <h2>Users</h2>
+        <h2>Users Registration</h2>
         <UserForm onEdit={onEdit} setOnEdit={setOnEdit} getUsers={getUsers} />
         <Grid setOnEdit={setOnEdit} setUsers={setUsers} users={users} />
-      </main>
-      <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
+      <ToastContainer autoClose={3000} position="bottom-left" />
     </div>
   );
 }
