@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 
 // Styles
-import "Grid.css";
+import "./grid.css";
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { IconButton } from "@mui/material";
