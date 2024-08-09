@@ -15,7 +15,7 @@ This repository contains the front-end code for the Users Registration CRUD appl
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/RaulHrN/user-register-crud-frontend]
+   git clone https://github.com/RaulHrN/user-register-crud-frontend
 
 2. Install dependencies:
    ```bash
